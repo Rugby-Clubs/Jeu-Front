@@ -1,0 +1,66 @@
+body{
+    /*background-color: #efefef;*/
+    background-image: url('../images/fd.png') !important;
+}
+canvas{
+    background-image: url('../images/fdbay.jpg') !important;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+stack{
+    display: block;
+    margin-left: 10%;
+    font-size: 2vw;
+    color: #f44336;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3vw !important;
+    text-align: center;
+}
+span{
+    font-weight: bolder;
+    color: #f44336;
+}
+#btn1{
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    color: white;
+}
+#btn2{
+    position: absolute;
+    top: 150px;
+    right: 5%;
+}
+#btn3{
+    position: absolute;
+    top: 200px;
+    right: 10%;
+}
+#btn4{
+    position: absolute;
+    top: 200px;
+    right: 5%;
+}
+.bug{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#sonOn{
+    height: 25px;
+}
+#sonOff{
+    height: 25px;
+}
+#hestayre{
+    position: absolute;
+    top: 290px;
+    left: 72%;
+    height: 350px;
+}

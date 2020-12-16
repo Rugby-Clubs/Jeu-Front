@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeu Niels</title>
+    <link rel="icon" href="images/favicon.png" />
+    <script src="js/game.js"></script>    
+    <script src="js/jquery.min.js"></script>    
+    <link rel="stylesheet" href="css/styleJeu.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+</head>
+<body>
+  <h1>Aide moi à retrouver toutes mes <span>stacks</span></h1>
+  <button type="button" id="btn1" class="btn btn-success" data-toggle="modal" data-target="#reglesModal">
+    Règles du jeu
+  </button>                
+  <button type="button" id="btn2" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+    Menu
+  </button>
+        
+<button type="button" id="btn3" class="btn btn-outline-success">
+  <img src="images/on.png" id="sonOn" alt="son">
+</button>
+
+<button type="button" id="btn4" class="btn btn-outline-danger">
+  <img src="images/off.png" id="sonOff" alt="son">
+</button>
+<img src="images/moi.png" id="hestayre" alt="Niels Netelenbos">
+
+  <!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Que souhaitez vous faire ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Ici vous pouvez retouner à l'accueil, revenir au jeu, ou même découvrir mon CV, soit sous son <span>format HTML</span> soit en le <span>téléchargeant</span>. En tout cas, faîtes en bon usage !
+      </div>
+      <div class="modal-footer">
+          <a href="index.php">
+              <button type="button" class="btn btn-secondary">Accueil</button></a>
+        <button type="button" onclick="reload()" id="reload" class="btn btn-danger" data-dismiss="modal">Rejouer</button>
+        <a href="cv.html" target="_blank" >
+        <button type="button" class="btn btn-primary">Voir mon CV</button></a>
+        <a href="cv.pdf" target="_blank" >
+          <button type="button" class="btn btn-success">Télécharger mon CV</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Modal -->
+<div class="modal fade" id="reglesModal" tabindex="-1" role="dialog" aria-labelledby="reglesModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="reglesModalLabel">Comment jouer ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        On est à Bayonne ! Ca va être l'<span>Encierro</span> mais on a quand même du boulot ! Utilisez les flèches de votre clavier et attrapez toutes les <span>slacks</span> !
+          Le but est de toutes les avoir mais faites attention aux vachettes !<br />
+          <img class="bug mt-3 mb-3" src="images/mus.png" style="height: 80px;" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

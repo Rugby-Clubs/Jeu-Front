@@ -1,0 +1,89 @@
+html{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: unset;
+    color: unset;
+}
+#colGauche{
+    background-color: #313638;
+    height: 100%;
+}
+#colGauche2{
+    background-color: #313638;
+    height: auto;
+}
+p{
+    color: white;
+    font-size: 1.7vw;
+}
+.pitch{
+    color: #313638;
+    font-size: 2vw;
+}
+#barreNom {
+    background-color: #e14631;
+    min-height: 17vw;
+    min-width: 100%;
+}
+#nom{
+    color: white;
+    font-family: arial;
+    padding-top: 0.7em;
+    font-size: 5vw;
+}
+#titre{
+    color: #313638;
+    font-size: 2vw;
+}
+h4, h6{
+    color :#e14631;
+}
+
+h5{
+    color: white;
+}
+span{
+    font-size: 1.3em;
+    color: yellow;
+}
+.droite {
+    color:  #313638;
+}
+#jaime{
+    width: 800px;
+    max-width: 100%;
+}
+#photo{
+    height: 17vw;
+    vertical-align: bottom;
+    border-radius: 100px;
+}
+#logos{
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+.resp{
+    height: 5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#up{
+    height: 10vw;
+}
+a{
+    text-decoration: none;
+}
+.rouge{
+    color :#e14631;
+    font-size: 2vw;
+}
+.white{
+    color: white;
+    font-size: 2.5vw;
+}
+#title{
+    font-size: 3vw;
+}
+/*e14631 orange du cv*/
